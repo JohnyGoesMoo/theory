@@ -2,7 +2,7 @@ with open(r"file.txt", 'r', encoding="UTF-8") as fp: #reads
     lines = len(fp.readlines())
     print('number of lines:', lines) #prints the number of lines♥ with open(r"file.txt", "r") as fp:measurements = fp.readlines() #stores lines in a list
 
-The first with open block reads the file "meteo.txt" and counts the number of lines (measurements).
+The first with open block reads the file "file.txt" and counts the number of lines (measurements).
 It then prints the total count of measurements.
 The second with open block reads the file again and stores all lines in a list called measurements.
 Each line is processed to remove extra spaces and split into individual components (assumed to be space-separated).
