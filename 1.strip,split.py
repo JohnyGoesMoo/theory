@@ -4,7 +4,7 @@ with open(r"file.txt", 'r', encoding="UTF-8") as fp: #reads
 
 The first with open block reads the file "meteo.txt" and counts the number of lines (measurements).
 It then prints the total count of measurements.
-The second with open block reads the file again and stores all lines in a list called merania.
+The second with open block reads the file again and stores all lines in a list called measurements.
 Each line is processed to remove extra spaces and split into individual components (assumed to be space-separated).
 
 The highest temperature is determined by sorting the temperature list and taking the last element (which is the highest).
